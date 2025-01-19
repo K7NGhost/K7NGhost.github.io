@@ -1,0 +1,14 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    background-color: #181C14;
+    display: flexbox;
+    flex-direction: column;
+}
+
+#InfoPanel {
+    display: flexbox;
+    background-color: aliceblue;
+}
