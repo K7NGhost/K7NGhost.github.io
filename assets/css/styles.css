@@ -50,6 +50,32 @@ body {
     justify-content: center;
 }
 
+.introduction-summary {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.mywork-button {
+    display: inline-block;
+    border: 1px solid #ECDFCC;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    color:#ECDFCC;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.mywork-button:hover {
+    background-color: #ECDFCC;
+    color: black;
+    border-color: #ECDFCC;
+}
+
 #Footer {
     display: flex;
     flex-direction: column;
@@ -104,7 +130,12 @@ body {
     min-height: 50px;
 }
 
-.BlogArea {
+.blog-area {
+    border: 1px solid #ECDFCC;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .blog-link {
@@ -113,13 +144,13 @@ body {
     color: inherit;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 0px;
+    padding: 6px;
     margin: 0;
     transition: box-shadow 0.3s ease;
 }
 
 .blog-link:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add hover effect */
+    box-shadow: 0 4px 8px #ECDFCC; /* Add hover effect */
 }
 
 .blog-title {
