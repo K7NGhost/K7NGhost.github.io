@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #697565;
+    background-color: #000000;
     margin: 0;
     height: 100vh;
     width: 100vw;
@@ -17,13 +17,6 @@ body {
     color: #ECDFCC;
 }
 
-#RightPanel {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: #181C14;
-}
-
 .InfoHeader {
     display: flex;
     flex-direction: column;
@@ -34,7 +27,7 @@ body {
 #LeftPanel {
     display: flex;
     flex-direction: column;
-    background-color: #3C3D37;
+    background-color: #183D3D;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +40,7 @@ body {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #697565;
+    border: 2px solid #ECDFCC;
 }
 
 #Introduction {
@@ -64,15 +57,51 @@ body {
     justify-content: center;
 }
 
-.FooterLinks {
+.fa-brands {
+    font-size: 2rem;
+}
+
+.footer-link-button {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: transparent;
+    color:#ECDFCC;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.footer-link-button:hover {
+    background-color: #ECDFCC;
+    color: black;
+    border-color: #ECDFCC;
+}
+
+#RightPanel {
+    flex: 1;
     display: flex;
-    gap: 100px;
-    flex-direction: row;
-    padding-left: 0;
+    flex-direction: column;
+    background-color: #040D12;
+}
+
+.fa-solid {
+    font-size: 1.5rem;
+}
+
+.blog-title-container {
+    display: flex;
+    gap: 10px;
 }
 
 .RightPanelHeader {
-    align-self: center;
+    background-color: #5C8374;
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    height: auto;
+    min-height: 50px;
 }
 
 .BlogArea {
