@@ -12,6 +12,8 @@ Jekyll requires blog post files to be named according to the following format:
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
+![alt text](image.png)
+
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
@@ -30,7 +32,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 # Testing fr
 
-- we will see if this works
+  - we will see if this works
 
 fun
 

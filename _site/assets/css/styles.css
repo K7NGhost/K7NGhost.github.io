@@ -60,7 +60,13 @@ body {
     text-align: center;
 }
 
-.mywork-button {
+.introduction-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.introduction-button {
     display: inline-block;
     border: 1px solid #ECDFCC;
     padding: 5px 15px;
@@ -73,7 +79,7 @@ body {
     transition: all 0.3s ease;
 }
 
-.mywork-button:hover {
+.introduction-button:hover {
     background-color: #ECDFCC;
     color: black;
     border-color: #ECDFCC;
@@ -221,6 +227,8 @@ body {
         justify-content: space-between;
         align-items: center;
         padding-top: 100px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     .mobile-bottom-panel {
@@ -228,6 +236,11 @@ body {
         flex-grow: 1;
         flex-direction: column;
         background-color: #040D12;
+    }
+
+    .introduction-buttons {
+        flex-direction: row;
+        align-items: center;
     }
 
 }
@@ -256,11 +269,25 @@ body {
     align-self: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     text-align: center;
+    overflow:hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.blog-content {
+    margin:0;
+    padding:0;
+}
+
+main {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
