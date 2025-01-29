@@ -21,3 +21,10 @@ theme changer
 choose your own adventure website (side project)
 make textures/patterns
 thank you for the suggestions!
+
+# To run the live server 
+bundle exec jekyll serve --livereload
+
+# if having issues where css isnt changing in the live server
+rm -rf _site
+bundle exec jekyll serve
